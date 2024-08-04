@@ -1,0 +1,19 @@
+// Example document for user activity
+{
+  "_id": "ObjectId",
+  "user_id": "userId",
+  "activity": "viewed_product",
+  "product_id": "productId",
+  "timestamp": "ISODate"
+}
+
+// Example document for product catalog
+{
+  "_id": "ObjectId",
+  "product_id": "productId",
+  "name": "productName",
+  "category": "productCategory",
+  "price": 19.99,
+  "stock": 100,
+  "timestamp": "ISODate"
+}
